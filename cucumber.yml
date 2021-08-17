@@ -1,0 +1,8 @@
+---
+  default: -p testhype -p chrome -p html -p pretty -p json --publish-quiet
+  testhype: ENV_TYPE=test
+  chrome: BROWSER=:selenium_chrome
+  html: --format html --out=reports/report.html
+  json: --format json --out=reports/report.json
+  pretty: --format pretty
+  progress: --format progress
