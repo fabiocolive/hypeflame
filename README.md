@@ -4,7 +4,7 @@ Para a executar a automação é necessário:
 
 ## Baixar e instalar o Ruby. 
 
-Em https://rubyinstaller.org/downloads/, baixar o DEVKIT, realizar a instalação padrão, selecionando todos os componentes e desmarcando a opção 'ridk install'.
+Em https://rubyinstaller.org/downloads/, baixar o DEVKIT, realizar a instalação padrão selecionando todos os componentes e desmarcando a opção 'ridk install'.
 
 ## Instalar o Chromedriver
 
