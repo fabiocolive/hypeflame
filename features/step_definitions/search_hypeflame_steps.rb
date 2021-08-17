@@ -4,7 +4,7 @@
   
   Quando('realizar uma busca por {string}') do |texto|
     @texto = texto
-    @resposta_pesqusia = search.pesquisar(@texto)
+    @resposta_pesquisa = search.pesquisar(@texto)
   end
   
   Então('será apresentado o resultado da pesquisa') do
@@ -13,5 +13,5 @@
   end
   
   Então('não apresentrá nenhum resultado associado a pesquisa') do
-    expect(@resposta_pesqusia).to eq 'Nenhum resultado'
+    expect(@resposta_pesquisa).to eq 'Nenhum resultado'
   end
