@@ -12,6 +12,6 @@
     expect(@resultado).to eq @texto
   end
   
-  Então('não apresentrá nenhum resultado associado a pesquisa') do
+  Então('não apresentará nenhum resultado associado a pesquisa') do
     expect(@resposta_pesquisa).to eq 'Nenhum resultado'
   end
